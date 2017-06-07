@@ -1,0 +1,16 @@
+{
+  "name": "pisco-facts",
+  "version": "1.0.0",
+  "description": "Create a pisco facts alexa skill.",
+  "main": "index.js",
+  "scripts": {
+    "proxy": "bst proxy lambda index.js",
+    "getFact": "bst intend GetNewFactIntent",
+    "deploy": "bst deploy lambda"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.9",
+    "bespoken-tools": "^0.9.45",
+    "dotenv": "^4.0.0"
+  }
+}
