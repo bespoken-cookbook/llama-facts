@@ -1,7 +1,7 @@
 {
-  "name": "pisco-facts",
+  "name": "llama-facts",
   "version": "1.0.0",
-  "description": "Create a pisco facts alexa skill.",
+  "description": "Create a llama facts alexa skill.",
   "main": "index.js",
   "scripts": {
     "proxy": "bst proxy lambda index.js",
@@ -10,7 +10,11 @@
   },
   "dependencies": {
     "alexa-sdk": "^1.0.9",
-    "bespoken-tools": "^0.9.45",
+    "bespoken-tools": "^1.0.5",
     "dotenv": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bespoken/llama-facts.git"
   }
 }
