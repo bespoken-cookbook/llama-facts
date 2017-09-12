@@ -21,7 +21,7 @@ npm run getFact
 
 # More Resources at
 
-[Bespoken tools](https://bespoken.tools)
+[Bespoken](https://bespoken.io)
 
 [Alexa skill](https://github.com/alexa/skill-sample-nodejs-fact)
 
