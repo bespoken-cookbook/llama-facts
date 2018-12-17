@@ -9,9 +9,9 @@
     "deploy": "bst deploy lambda"
   },
   "dependencies": {
-    "alexa-sdk": "^1.0.9",
-    "bespoken-tools": "^1.0.5",
-    "dotenv": "^4.0.0"
+    "alexa-sdk": "^1.0.25",
+    "bespoken-tools": "^2.1.2",
+    "dotenv": "^6.2.0"
   },
   "repository": {
     "type": "git",

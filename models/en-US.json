@@ -1,0 +1,42 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "llama facts",
+      "intents": [
+        {
+          "name": "GetNewFactIntent",
+          "slots": [],
+          "samples": [
+            "a fact",
+            "a llama fact",
+            "tell me a fact",
+            "tell me a llama fact",
+            "give me a fact",
+            "give me a llama fact",
+            "tell me trivia",
+            "tell me a llama trivia",
+            "give me trivia",
+            "give me a llama trivia",
+            "give me some information",
+            "give me some llama information",
+            "tell me something",
+            "give me something"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
